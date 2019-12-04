@@ -1,3 +1,4 @@
+REM run this file while its on your working dir
 echo helloworld
 ver
 pause
