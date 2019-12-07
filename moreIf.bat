@@ -1,6 +1,6 @@
 @echo off
 goto :main
-
+::update comment
 :main
 setlocal
 echo Friend: you got enough money to buy the ticket? 
