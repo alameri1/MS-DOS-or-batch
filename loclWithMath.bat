@@ -3,9 +3,11 @@ goto :main
 echo get back to studying
 :mux
 
-	set /a p= %p% * %~1
 	set /a multi=%~1
-	echo mux is multiplying by %multi%
+	echo		 mux is multiplying by %multi%
+	endlocal & set /a p= %p% * %multi%
+
+
 	goto :eof
 :main 
 	setlocal
