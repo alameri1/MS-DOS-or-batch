@@ -1,0 +1,12 @@
+to delete a folder content use the del  command 
+a folder has to be empty to delete it with rmdir
+
+
+MOVE command 
+
+use move /y when writing scripts so it doesn't prompt you can also use > to
+write it and make it looks silent
+
+to move a file from a parent folder when you are in a nested folder do this 
+move ..\[Name of file]
+
