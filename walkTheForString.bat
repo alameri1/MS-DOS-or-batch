@@ -5,7 +5,8 @@ setlocal enabledelayedexpansion
 goto :main 
 
 :main
-::can't name an itteration var with more then one letter 
+::can't name an itteration var with more then one letter
+:: .. its in alpabatic order starting from the iterration var letter 
 ::in a loop single qoutes ' is not similar to double "
 setlocal
 	set string=This is a sentence
